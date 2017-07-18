@@ -1,9 +1,5 @@
----
-services: app-service\web, app-service
-platforms: node
-author: cephalin
----
-# Node.js sample for Azure App Service - Express
+
+# CGIDigitalWeekIOTIHM for Azure App Service - Express
 
 This is a Node.js web app built on the [Express](http://expressjs.com/) framework that you can deploy 
 to Azure App Service. 
@@ -17,3 +13,9 @@ To learn how to deploy this starter web app to App Service in a few minutes, go 
 ## License
 
 See [LICENSE](LICENSE).
+
+## Run
+Open a prompt:
+> cmd bin
+Enter the command:
+> node www

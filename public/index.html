@@ -2,20 +2,23 @@
 <html lang="en" class="no-js">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CGI | Digital Week</title>
-	<meta name="description" content="An interactive 3D mall map for CGI stands. " />
-	<meta name="keywords" content="mall map, 3d, css, javascript, node, pin, levels, floor map" />
-	<meta name="author" content="CGI" />
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<script src="js/vendor/modernizr-custom.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CGI | Digital Week</title>
+    <meta name="description" content="An interactive 3D mall map for CGI stands. " />
+    <meta name="keywords" content="mall map, 3d, css, javascript, node, pin, levels, floor map" />
+    <meta name="author" content="CGI" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/vendor/modernizr-custom.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 </head>
 
 <body>
-	<svg class="hidden">
+    <svg class="hidden">
 		<defs>
 			<symbol id="icon-pin" viewBox="0 0 200 300" icon-pin>
 				<title>pin</title>
@@ -214,19 +217,19 @@
 			</symbol>
 		</defs>
 	</svg>
-	<div class="container">
-		<div class="main">
-			<header class="codrops-header">
-				<a class="" href="" title="Back to the article"><img class="logo-cgi" src="img/cgi-logo.png" alt="Surroundings" /></a>
-				<h1>Digital Week</h1>
-			</header>
-			<div class="mall">
-				<div class="surroundings">
-					<img class="surroundings__map" src="img/surroundings.svg" alt="Surroundings" />
-				</div>
-				<div class="levels">
-					<div class="level level--1" aria-label="Level 1">
-						<svg class="map map--1" width="100%" height="100%" viewBox="0 0 1200.0001 799.99996" preserveAspectRatio="xMidYMid meet">
+    <div class="container">
+        <div class="main">
+            <header class="codrops-header">
+                <a class="" href="" title="Back to the article"><img class="logo-cgi" src="img/cgi-logo.png" alt="Surroundings" /></a>
+                <h1>Digital Week</h1>
+            </header>
+            <div class="mall">
+                <div class="surroundings">
+                    <img class="surroundings__map" src="img/surroundings.svg" alt="Surroundings" />
+                </div>
+                <div class="levels">
+                    <div class="level level--1" aria-label="Level 1">
+                        <svg class="map map--1" width="100%" height="100%" viewBox="0 0 1200.0001 799.99996" preserveAspectRatio="xMidYMid meet">
 							<defs id="defs4">
 								<pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern" />
 								<pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern-2" />
@@ -311,12 +314,12 @@
 								</g>
 							</g>
 						</svg>
-						<div class="level__pins">
-						</div>
-					</div>
-					<div class="level level--2" aria-label="Level 2">
+                        <div class="level__pins">
+                        </div>
+                    </div>
+                    <div class="level level--2" aria-label="Level 2">
 
-						<svg class="map map--2" width="100%" height="100%" viewBox="0 0 1200.0001 799.99996" version="1.1" preserveAspectRatio="xMidYMid meet">
+                        <svg class="map map--2" width="100%" height="100%" viewBox="0 0 1200.0001 799.99996" version="1.1" preserveAspectRatio="xMidYMid meet">
 							<defs id="defs4">
 								<pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern" />
 								<pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern-2" />
@@ -412,106 +415,106 @@
 							</g>
 						</svg>
 
-						<div class="level__pins">
+                        <div class="level__pins">
 
-							<a class="pin pin--2-1" data-category="0" data-space="2.01" href="#" aria-label="Pin for Partenariat village CA">
-								<span class="pin__icon">
+                            <a class="pin pin--2-1" data-category="0" data-space="2.01" href="#" aria-label="Pin for Partenariat village CA">
+                                <span class="pin__icon">
 									<span class="stand--name ">Partenariat village CA</span>
-								<svg class="icon icon--pin icon--default">
+                                <svg class="icon icon--pin icon--default">
 									<use xlink:href="#icon-pin"></use>
 								</svg>
-								<!-- <svg class="icon icon--logo pin--number"><use xlink:href="#icon-pepper"></use></svg> -->
-								<span class="icon icon--logo pin--number pin--number-animation stand--partenariat"></span>
-								</span>
-							</a>
+                                <!-- <svg class="icon icon--logo pin--number"><use xlink:href="#icon-pepper"></use></svg> -->
+                                <span class="icon icon--logo pin--number pin--number-animation stand--partenariat"></span>
+                                </span>
+                            </a>
 
-							<a class="pin pin--2-2" data-category="0" data-space="2.02" href="#" aria-label="Pin for Chat bot">
-								<span class="pin__icon">
+                            <a class="pin pin--2-2" data-category="0" data-space="2.02" href="#" aria-label="Pin for Chat bot">
+                                <span class="pin__icon">
 									<span class="stand--name ">Chat bot</span>
-								<svg class="icon icon--pin">
+                                <svg class="icon icon--pin">
 									<use xlink:href="#icon-pin"></use>
 								</svg>
-								<!-- <svg class="icon icon--logo pin--number stand--chatbot"></svg> -->
-								<span class="icon icon--logo pin--number pin--number-animation stand--chatbot"></span>
-								</span>
-							</a>
+                                <!-- <svg class="icon icon--logo pin--number stand--chatbot"></svg> -->
+                                <span class="icon icon--logo pin--number pin--number-animation stand--chatbot"></span>
+                                </span>
+                            </a>
 
-							<a class="pin pin--2-3" data-category="0" data-space="2.03" href="#" aria-label="Pin for MAEVA">
-								<span class="pin__icon">
+                            <a class="pin pin--2-3" data-category="0" data-space="2.03" href="#" aria-label="Pin for MAEVA">
+                                <span class="pin__icon">
 									<span class="stand--name "> MAEVA</span>
-								<svg class="icon icon--pin">
+                                <svg class="icon icon--pin">
 									<use xlink:href="#icon-pin"></use>
 								</svg>
-								<!-- <svg class="icon icon--logo pin--number"><use xlink:href="#icon-bug"></use></svg> -->
-								<span class="icon icon--logo pin--number pin--number-animation stand--maeva"></span>
-								</span>
-							</a>
+                                <!-- <svg class="icon icon--logo pin--number"><use xlink:href="#icon-bug"></use></svg> -->
+                                <span class="icon icon--logo pin--number pin--number-animation stand--maeva"></span>
+                                </span>
+                            </a>
 
-							<a class="pin pin--2-5" data-category="0" data-space="2.05" href="#" aria-label="Pin for Block Chain">
-								<span class="pin__icon">
+                            <a class="pin pin--2-5" data-category="0" data-space="2.05" href="#" aria-label="Pin for Block Chain">
+                                <span class="pin__icon">
 									<span class="stand--name "> Block Chain</span>
-								<svg class="icon icon--pin">
+                                <svg class="icon icon--pin">
 									<use xlink:href="#icon-pin"></use>
 								</svg>
-								<!-- <svg class="icon icon--logo pin--number"><use xlink:href="#icon-eggplant"></use></svg> -->
-								<span class="icon icon--logo pin--number  pin--number-animation stand--block--chain"></span>
-								</span>
-							</a>
+                                <!-- <svg class="icon icon--logo pin--number"><use xlink:href="#icon-eggplant"></use></svg> -->
+                                <span class="icon icon--logo pin--number  pin--number-animation stand--block--chain"></span>
+                                </span>
+                            </a>
 
-							<a class="pin pin--2-7" data-category="0" data-space="2.07" href="#" aria-label="Pin for IOT">
-								<span class="pin__icon">
+                            <a class="pin pin--2-7" data-category="0" data-space="2.07" href="#" aria-label="Pin for IOT">
+                                <span class="pin__icon">
 									<span class="stand--name "> IOT</span>
-								<svg class="icon icon--pin">
+                                <svg class="icon icon--pin">
 									<use xlink:href="#icon-pin"></use>
 								</svg>
-								<!-- <svg class="icon icon--logo icon--heart"><use xlink:href="#icon-heart"></use></svg> -->
-								<span class="icon icon--logo pin--number pin--number-animation stand--iot"></span>
+                                <!-- <svg class="icon icon--logo icon--heart"><use xlink:href="#icon-heart"></use></svg> -->
+                                <span class="icon icon--logo pin--number pin--number-animation stand--iot"></span>
 
-								</span>
-							</a>
+                                </span>
+                            </a>
 
-							<a class="pin pin--2-8" data-category="0" data-space="2.08" href="#" aria-label="Pin for API Management">
-								<span class="pin__icon">
+                            <a class="pin pin--2-8" data-category="0" data-space="2.08" href="#" aria-label="Pin for API Management">
+                                <span class="pin__icon">
 									<span class="stand--name "> API management</span>
-								<svg class="icon icon--pin">
+                                <svg class="icon icon--pin">
 									<use xlink:href="#icon-pin"></use>
 								</svg>
-								<!-- <svg class="icon icon--logo pin--number"><use xlink:href="#icon-wrench"></use></svg> -->
-								<span class="icon icon--logo pin--number pin--number-animation stand--api"></span>
-								</span>
-							</a>
+                                <!-- <svg class="icon icon--logo pin--number"><use xlink:href="#icon-wrench"></use></svg> -->
+                                <span class="icon icon--logo pin--number pin--number-animation stand--api"></span>
+                                </span>
+                            </a>
 
-							<!-- /level__pins -->
+                            <!-- /level__pins -->
 
-							<div class="pin legende--vert" data-category="1">
-								<span class="pin__icon legende--text">
+                            <div class="pin legende--vert" data-category="1">
+                                <span class="pin__icon legende--text">
 									<svg class="icon icon--pin icon--legende icon--default">
 										<use xlink:href="#icon-pin"></use>
 									</svg>
 									<span class="legende--libelle">Moins de <span class="minNumber"></span> personnes détectés</span>
-								</span>
-							</div>
-							<div class="pin legende--orange" data-category="2">
-								<span class="pin__icon legende--text">
+                                </span>
+                            </div>
+                            <div class="pin legende--orange" data-category="2">
+                                <span class="pin__icon legende--text">
 									<svg class="icon icon--pin icon--legende icon--default">
 										<use xlink:href="#icon-pin"></use>
 									</svg>
 									<span class="legende--libelle">Entre <span class="minNumber"></span> et <span class="maxNumber"></span> personnes détectés</span>
-								</span>
-							</div>
-							<div class="pin legende--rouge" data-category="3">
-								<span class="pin__icon legende--text">	
+                                </span>
+                            </div>
+                            <div class="pin legende--rouge" data-category="3">
+                                <span class="pin__icon legende--text">	
 									<svg class="icon icon--pin icon--legende icon--default">
 										<use xlink:href="#icon-pin"></use>
 									</svg>
 									<span class="legende--libelle">Plus de <span class="maxNumber"></span> personnes détectés</span>
-								</span>
-							</div>
-						</div>
-					</div>
-					<div class="level level--3" aria-label="Level 3">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="level level--3" aria-label="Level 3">
 
-						<svg class="map map--3" width="100%" height="100%" viewBox="0 0 1200.0001 799.99996" preserveAspectRatio="xMidYMid meet">
+                        <svg class="map map--3" width="100%" height="100%" viewBox="0 0 1200.0001 799.99996" preserveAspectRatio="xMidYMid meet">
 							<defs id="defs4">
 								<pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern" />
 								<pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern-2" />
@@ -538,122 +541,447 @@
 							</g>
 						</svg>
 
-						<div class="level__pins">
-						</div>
+                        <div class="level__pins">
+                        </div>
 
-					</div>
-				</div>
-				<!-- /levels -->
-			</div>
-			<!-- /mall -->
-			<button class="boxbutton boxbutton--dark open-search" aria-label="Show search"><svg class="icon icon--search"><use xlink:href="#icon-search"></use></svg></button>
-			<nav class="mallnav mallnav--hidden">
-				<button class="boxbutton mallnav__button--up" aria-label="Go up"><svg class="icon icon--angle-down"><use xlink:href="#icon-angle-up"></use></svg></button>
-				<button class="boxbutton boxbutton--dark mallnav__button--all-levels" aria-label="Back to all levels"><svg class="icon icon--stack"><use xlink:href="#icon-stack"></use></svg></button>
-				<button class="boxbutton mallnav__button--down" aria-label="Go down"><svg class="icon icon--angle-down"><use xlink:href="#icon-angle-down"></use></svg></button>
-			</nav>
+                    </div>
+                </div>
+                <!-- /levels -->
+            </div>
+            <!-- /mall -->
+            <button class="boxbutton boxbutton--dark open-search" aria-label="Show search"><svg class="icon icon--search"><use xlink:href="#icon-search"></use></svg></button>
+            <nav class="mallnav mallnav--hidden">
+                <button class="boxbutton mallnav__button--up" aria-label="Go up"><svg class="icon icon--angle-down"><use xlink:href="#icon-angle-up"></use></svg></button>
+                <button class="boxbutton boxbutton--dark mallnav__button--all-levels" aria-label="Back to all levels"><svg class="icon icon--stack"><use xlink:href="#icon-stack"></use></svg></button>
+                <button class="boxbutton mallnav__button--down" aria-label="Go down"><svg class="icon icon--angle-down"><use xlink:href="#icon-angle-down"></use></svg></button>
+            </nav>
 
-			<div class="content">
-				<div class="content__item" data-space="2.01" data-category="1">
-					<h3 class="content__item-title">Partenariat village CA</h3>
-					<div class="content__item-details">
-						<p class="content__meta">
-							<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 11:30PM</span>
-							<span class="content__meta-item"><strong>Phone:</strong> (0) 66 9866756</span>
-						</p>
-						<p class="content__desc">Summer purslane horseradish catsear kurrat, winter melon bitter gourd. Tomato, florence fennel; garden rocket;</p>
-					</div>
-				</div>
-				<div class="content__item" data-space="2.02" data-category="2">
-					<h3 class="content__item-title">Chat bot</h3>
-					<div class="content__item-details">
-						<p class="content__meta">
-							<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 11:30PM</span>
-							<span class="content__meta-item"><strong>Phone:</strong> (0) 66 4539810</span>
-						</p>
-						<p class="content__desc">Salsify garlic scallion manioc plectranthus summer purslane water chestnut cucumber radish garlic. Daikon winter melon
-							moth bean.</p>
-					</div>
-				</div>
-				<div class="content__item" data-space="2.03" data-category="2">
-					<h3 class="content__item-title">MAEVA</h3>
-					<div class="content__item-details">
-						<p class="content__meta">
-							<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 10:30PM</span>
-							<span class="content__meta-item"><strong>Phone:</strong> (0) 66 8865001</span>
-						</p>
-						<p class="content__desc">Sorrel garlic pigeon pea fava bean radish scorzonera lentil. Black-eyed pea samphire sorrel; lotus root arracacha lima
-							bean celeriac chinese artichoke okra.</p>
-					</div>
-				</div>
-				<div class="content__item" data-space="2.05" data-category="1">
-					<h3 class="content__item-title">Block Chain</h3>
-					<div class="content__item-details">
-						<p class="content__meta">
-							<span class="content__meta-item"><strong>Opening Hours:</strong> 9:00AM &mdash; 11:30PM</span>
-							<span class="content__meta-item"><strong>Phone:</strong> (0) 66 7846729</span>
-						</p>
-						<p class="content__desc">Ahipa yacón mustard fat hen fava bean mung bean, leek; beetroot - prussian asparagus. </p>
-					</div>
-				</div>
+            <div class="content">
+                <div id="DGWStand1" class="content__item" data-space="2.01" data-category="1">
+                    <h3 class="content__item-title">Partenariat village CA</h3>
+                    <div class="content__item-details">
+                        <p class="content__meta">
+                            <span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 11:30PM</span>
+                            <span class="content__meta-item"><strong>Phone:</strong> (0) 66 9866756</span>
+                        </p>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-md-4 content__border">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderMale.svg">
+                                        <div class="genderMale"></div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderFemale.svg">
+                                        <div class="genderFemale"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div>Age moyen</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="age"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4  content__border">
+                                <canvas id="DGWStand1_chart" height="150"></canvas>
+                            </div>
+                            <div class="col-md-4 border-separation">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette soleil</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Barbe</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/classicGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/SolarGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/barbe.svg"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="readingglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="sunglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="hearypersons">2</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="DGWStand2" class="content__item" data-space="2.02" data-category="2">
+                    <h3 class="content__item-title">Chat bot</h3>
+                    <div class="content__item-details">
+                        <p class="content__meta">
+                            <span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 11:30PM</span>
+                            <span class="content__meta-item"><strong>Phone:</strong> (0) 66 4539810</span>
+                        </p>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-md-4 content__border">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderMale.svg">
+                                        <div class="genderMale"></div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderFemale.svg">
+                                        <div class="genderFemale"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div>Age moyen</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="age"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4  content__border">
+                                <canvas id="DGWStand2_chart" height="150"></canvas>
+                            </div>
+                            <div class="col-md-4 border-separation">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette soleil</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Barbe</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/classicGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/SolarGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/barbe.svg"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="readingglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="sunglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="hearypersons">2</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-				<div class="content__item" data-space="2.07" data-category="3">
-					<h3 class="content__item-title">Internet of objects</h3>
-					<div class="content__item-details">
-						<p class="content__meta">
-							<span class="content__meta-item"><strong>Opening Hours:</strong> 6:30AM &mdash; 10:30PM</span>
-							<span class="content__meta-item"><strong>Phone:</strong> (0) 66 6650989</span>
-						</p>
-						<p class="content__desc">Ensete endive fiddlehead endive kurrat - gobo, black-eyed pea bitter gourd pignut. Winter melon swiss chard beet greens
-							fiddlehead; guar.</p>
-					</div>
-				</div>
-				<div class="content__item" data-space="2.08" data-category="3">
-					<h3 class="content__item-title">API Management</h3>
-					<div class="content__item-details">
-						<p class="content__meta">
-							<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 07:30PM</span>
-							<span class="content__meta-item"><strong>Phone:</strong> (0) 66 4409098</span>
-						</p>
-						<p class="content__desc">Celeriac lima bean, tepary bean sweet potato or kumara nopal wild leek, elephant garlic carrot. Bitter gourd, prairie
-							turnip tatsoi canna miner's lettuce bitterleaf lizard's tail broadleaf arrowhead gobo; swiss chard pigeon pea leaves.</p>
-					</div>
-				</div>
+                    </div>
+                </div>
+                <div id="DGWStand3" class="content__item" data-space="2.03" data-category="2">
+                    <h3 class="content__item-title">MAEVA</h3>
+                    <div class="content__item-details">
+                        <p class="content__meta">
+                            <span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 10:30PM</span>
+                            <span class="content__meta-item"><strong>Phone:</strong> (0) 66 8865001</span>
+                        </p>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-md-4 content__border">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderMale.svg">
+                                        <div class="genderMale"></div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderFemale.svg">
+                                        <div class="genderFemale"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div>Age moyen</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="age"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4  content__border">
+                                <canvas id="DGWStand3_chart" height="150"></canvas>
+                            </div>
+                            <div class="col-md-4 border-separation">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette soleil</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Barbe</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/classicGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/SolarGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/barbe.svg"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="readingglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="sunglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="hearypersons">2</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-				<button class="boxbutton boxbutton--dark content__button content__button--hidden" aria-label="Close details"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
-			</div>
-			<!-- content -->
-		</div>
-		<!-- /main -->
-		<aside class="spaces-list" id="spaces-list">
-			<div class="search">
-				<input class="search__input" placeholder="Search..." />
-				<button class="boxbutton boxbutton--darker close-search" aria-label="Close details"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
-			</div>
-			<span class="label">
+                    </div>
+                </div>
+                <div id="DGWStand4" class="content__item" data-space="2.05" data-category="1">
+                    <h3 class="content__item-title">Block Chain</h3>
+                    <div class="content__item-details">
+                        <p class="content__meta">
+                            <span class="content__meta-item"><strong>Opening Hours:</strong> 9:00AM &mdash; 11:30PM</span>
+                            <span class="content__meta-item"><strong>Phone:</strong> (0) 66 7846729</span>
+                        </p>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-md-4 content__border">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderMale.svg">
+                                        <div class="genderMale"></div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderFemale.svg">
+                                        <div class="genderFemale"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div>Age moyen</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="age"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4  content__border">
+                                <canvas id="DGWStand4_chart" height="150"></canvas>
+                            </div>
+                            <div class="col-md-4 border-separation">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette soleil</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Barbe</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/classicGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/SolarGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/barbe.svg"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="readingglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="sunglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="hearypersons">2</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="DGWStand5" class="content__item" data-space="2.07" data-category="3">
+                    <h3 class="content__item-title">Internet of objects</h3>
+                    <div class="content__item-details">
+                        <p class="content__meta">
+                            <span class="content__meta-item"><strong>Opening Hours:</strong> 6:30AM &mdash; 10:30PM</span>
+                            <span class="content__meta-item"><strong>Phone:</strong> (0) 66 6650989</span>
+                        </p>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-md-4 content__border">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderMale.svg">
+                                        <div class="genderMale"></div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderFemale.svg">
+                                        <div class="genderFemale"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div>Age moyen</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="age"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4  content__border">
+                                <canvas id="DGWStand5_chart" height="150"></canvas>
+                            </div>
+                            <div class="col-md-4 border-separation">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette soleil</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Barbe</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/classicGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/SolarGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/barbe.svg"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="readingglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="sunglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="hearypersons">2</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="DGWStand6" class="content__item" data-space="2.08" data-category="3">
+                    <h3 class="content__item-title">API Management</h3>
+                    <div class="content__item-details">
+                        <p class="content__meta">
+                            <span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 07:30PM</span>
+                            <span class="content__meta-item"><strong>Phone:</strong> (0) 66 4409098</span>
+                        </p>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-md-4 content__border">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderMale.svg">
+                                        <div class="genderMale"></div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="img/icons/genderFemale.svg">
+                                        <div class="genderFemale"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div>Age moyen</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="age"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4  content__border">
+                                <canvas id="DGWStand6_chart" height="150"></canvas>
+                            </div>
+                            <div class="col-md-4 border-separation">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Lunette soleil</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div>Barbe</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/classicGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/SolarGlass.svg"></div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/icons/barbe.svg"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="readingglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="sunglasses">2</div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="hearypersons">2</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="boxbutton boxbutton--dark content__button content__button--hidden" aria-label="Close details"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
+            </div>
+            <!-- content -->
+        </div>
+        <!-- /main -->
+        <aside class="spaces-list" id="spaces-list">
+            <div class="search">
+                <input class="search__input" placeholder="Search..." />
+                <button class="boxbutton boxbutton--darker close-search" aria-label="Close details"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
+            </div>
+            <span class="label">
 					<input id="sort-by-name" class="label__checkbox" type="checkbox" aria-label="Show alphabetically"/>
 					<!--<label class="label__text">A - Z</label> -->
 			</span>
 
-			<ul class="list grouped-by-category">
-				<li class="list__item" data-level="2" data-category="1" data-space="2.05" data-persons=""><a href="#" class="list__link">Block Chain</a></li>
-				<li class="list__item" data-level="2" data-category="1" data-space="2.01" data-persons=""><a href="#" class="list__link">Partenariat village CA</a></li>
-				<li class="list__item" data-level="2" data-category="1" data-space="2.02" data-persons=""><a href="#" class="list__link">Chat Bot</a></li>
-				<li class="list__item" data-level="2" data-category="1" data-space="2.03" data-persons=""><a href="#" class="list__link">MAEVA</a></li>
-				<li class="list__item" data-level="2" data-category="1" data-space="2.08" data-persons=""><a href="#" class="list__link">API Management</a></li>
-				<li class="list__item" data-level="2" data-category="1" data-space="2.07" data-persons=""><a href="#" class="list__link">Internet of objects </a></li>
+            <ul class="list grouped-by-category">
+                <li class="list__item" data-level="2" data-category="1" data-space="2.05" data-persons=""><a href="#" class="list__link">Block Chain</a></li>
+                <li class="list__item" data-level="2" data-category="1" data-space="2.01" data-persons=""><a href="#" class="list__link">Partenariat village CA</a></li>
+                <li class="list__item" data-level="2" data-category="1" data-space="2.02" data-persons=""><a href="#" class="list__link">Chat Bot</a></li>
+                <li class="list__item" data-level="2" data-category="1" data-space="2.03" data-persons=""><a href="#" class="list__link">MAEVA</a></li>
+                <li class="list__item" data-level="2" data-category="1" data-space="2.08" data-persons=""><a href="#" class="list__link">API Management</a></li>
+                <li class="list__item" data-level="2" data-category="1" data-space="2.07" data-persons=""><a href="#" class="list__link">Internet of objects </a></li>
 
-			</ul>
-		</aside>
-		<!-- /spaces-list -->
-	</div>
-	<!-- /container -->
+            </ul>
+        </aside>
+        <!-- /spaces-list -->
+    </div>
+    <!-- /container -->
 
-	<!-- include JS -->
-	<script src="js/vendor/jquery-1.12.4.min.js"></script>
-	<script src="js/vendor/classie.js"></script>
-	<script src="js/vendor/list.min.js"></script>
-	<script src="js/vendor/main.js"></script>
-	<script src="js/site.js"></script>
-	<!-- /include JS -->
+    <!-- include JS -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/classie.js"></script>
+    <script src="js/vendor/list.min.js"></script>
+    <script src="js/vendor/main.js"></script>
+    <script src="js/site.js"></script>
+    <!-- /include JS -->
 </body>

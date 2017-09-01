@@ -33,22 +33,6 @@
             cache: false,
             timeout: 10000
         }).done(function (data) {
-
-            if (data.length == 0) {
-                data = [
-                    {
-                        "deviceId": "DGWStand2",
-                        "persons": 2,
-                        "message": "{\"deviceId\":\"DGWStand2\",\"persons\":2,\"males\":1,\"females\":0,\"smiles\":0,\"age\":28.1,\"sunglasses\":0,\"readingglasses\":0,\"happypersons\":4,\"neutralpersons\":3,\"disgustpersons\":0,\"angerpersons\":1,\"happyratio\":0,\"hearypersons\":0}"
-                    },
-                    {
-                        "deviceId": "DGWStand1",
-                        "persons": 1,
-                        "message": "{\"deviceId\":\"DGWStand1\",\"persons\":1,\"males\":1,\"females\":0,\"smiles\":0,\"age\":28.1,\"sunglasses\":0,\"readingglasses\":0,\"happypersons\":4,\"neutralpersons\":3,\"disgustpersons\":0,\"angerpersons\":1,\"happyratio\":0,\"hearypersons\":0}"
-                    }
-                ]
-            }
-
             
             //la fonction permer de gérer l'affichage en fonction de numbre des personnes
             for (var i = 0; i < data.length; i++) {

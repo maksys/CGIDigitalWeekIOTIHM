@@ -1120,21 +1120,21 @@ a:focus, button:focus {
 .legende--vert {
 	top: 96vmin;
 	left: -13vmin;
-	width: 10.5vmin;
+	width: 13vmin;
 	height: 12.25vmin;
 }
 
 .legende--orange {
 	top: 102vmin;
 	left: 0vmin;
-	width: 10.5vmin;
+	width: 13vmin;
 	height: 12.25vmin;
 }
 
 .legende--rouge {
 	top: 109vmin;
 	left: 14vmin;
-	width: 10.5vmin;
+	width: 13vmin;
 	height: 12.25vmin;
 }
 

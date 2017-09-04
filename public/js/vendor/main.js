@@ -8,7 +8,7 @@
  * Copyright 2016, Codrops
  * http://www.codrops.com
  */
-;(function(window) {
+var mallMap = (function(window) {
 
 	'use strict';
 
@@ -66,7 +66,7 @@
 		levelUpCtrl = mallNav.querySelector('.mallnav__button--up'),
 		levelDownCtrl = mallNav.querySelector('.mallnav__button--down'),
 		// pins
-		pins = [].slice.call(mallLevelsEl.querySelectorAll('.pin')),
+		pins = [].slice.call(mallLevelsEl.querySelectorAll('.level__pins > .pin')),
 		// content element
 		contentEl = document.querySelector('.content'),
 		// content close ctrl
@@ -449,15 +449,17 @@
 	function showSpace(sliding) {
 		// the content item
 		var contentItem = contentEl.querySelector('.content__item[data-space="' + spaceref + '"]');
-		// show content
-		classie.add(contentItem, 'content__item--current');
-		if( sliding ) {
-			onEndTransition(contentItem, function() {
-				classie.add(contentEl, 'content--open');
-			});
+		if(contentItem){
+			// show content
+			classie.add(contentItem, 'content__item--current');
+			if( sliding ) {
+				onEndTransition(contentItem, function() {
+					classie.add(contentEl, 'content--open');
+				});
+			}
+			// map pin gets selected
+			classie.add(mallLevelsEl.querySelector('.pin[data-space="' + spaceref + '"]'), 'pin--active');
 		}
-		// map pin gets selected
-		classie.add(mallLevelsEl.querySelector('.pin[data-space="' + spaceref + '"]'), 'pin--active');
 	}
 
 	/**
@@ -520,5 +522,9 @@
 	}
 	
 	init();
+
+	return {
+		"showLevel" : showLevel
+	}
 
 })(window);

@@ -19,6 +19,8 @@
         //appeler le WS avec un délai de 5 secondes
         var durationInMs = 1000 * 60 * 60;
         setInterval(getStandsInfo, durationInMs);
+
+        mallMap.showLevel(2);
     });
 
     /** la fonction permet de récupérer les informations des stands **/
@@ -164,8 +166,6 @@
 
         // Ajouter une animation
         $('.pin--number').stop(true, true).fadeOut('3000').delay(1000).fadeIn('3000');
-
-
     }
 
 

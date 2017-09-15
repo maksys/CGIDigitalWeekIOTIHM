@@ -17,7 +17,7 @@
         setNumberPersons(minNumber, maxNumber);
 
         //appeler le WS avec un délai de 5 secondes
-        var durationInMs = 1000 * 60 * 60;
+        var durationInMs = 1000 * 5;
         setInterval(getStandsInfo, durationInMs);
 
         mallMap.showLevel(2);

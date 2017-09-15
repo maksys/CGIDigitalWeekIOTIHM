@@ -894,8 +894,8 @@ a:focus, button:focus {
 
 .icon--logo {
 	position: absolute;
-	top: 28%;
-	left: 27%;
+	top: 20%;
+	left: 22%;
 	width: 50%;
 	height: 50%;
 	fill: white;
@@ -970,13 +970,13 @@ a:focus, button:focus {
 }
 
 .pin--2-3 {
-	top: 40vmin;
-	left: 69vmin;
+	top: 10vmin;
+	left: 58vmin;
 }
 
 .pin--2-5 {
-	top: 16vmin;
-	left: 64vmin;
+	top: 23vmin;
+	left: 71vmin;
 }
 
 .pin--2-7 {
@@ -985,8 +985,8 @@ a:focus, button:focus {
 }
 
 .pin--2-8 {
-	top: 52vmin;
-	left: 74vmin;
+	top: 39vmin;
+	left: 70vmin;
 }
 
 
@@ -1003,13 +1003,13 @@ a:focus, button:focus {
 }
 
 .pin--pres--2-3 {
-	top: 50vmin;
-	left: 80vmin;
+	top: 11vmin;
+	left: 71vmin;
 }
 
 .pin--pres--2-5 {
-	top: 17vmin;
-	left: 78vmin;
+	top: 27vmin;
+	left: 85vmin;
 }
 
 .pin--pres--2-7 {
@@ -1018,8 +1018,8 @@ a:focus, button:focus {
 }
 
 .pin--pres--2-8 {
-	top: 62vmin;
-	left: 83vmin;
+	top: 49vmin;
+	left: 81vmin;
 }
 
 
